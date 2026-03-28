@@ -90,8 +90,10 @@ cd files
 ```
 
 ### Step 2 — Copy the files
+```
 Git clone :
 https://github.com/Suryaprakashrajendran/AI-Token-Monitor.git
+```
 
 [or]
 
