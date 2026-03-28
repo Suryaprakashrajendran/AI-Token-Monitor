@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname)));
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const PORT           = process.env.PORT;
-const DATA_FILE      = path.join(__dirname, 'usage.json');
+const DATA_FILE      = path.join(__dirname, 'data/usage.json');
 
 console.log(`Server starting on port ${PORT}`);
 
@@ -264,10 +264,9 @@ app.get('/api/export', (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`✅ Token Monitor server  →  http://localhost:${PORT}`);
-  console.log(`🤖 Chatbot               →  http://localhost:${PORT}/chatbot.html`);
-  console.log(`📊 Dashboard             →  http://localhost:${PORT}/dashboard.html`);
+  console.log(`🤖 Chatbot               →  http://localhost:${PORT}/public/html/chatbot.html`);
+  console.log(`📊 Dashboard             →  http://localhost:${PORT}/public/html/dashboard.html`);
   console.log(`📁 Usage data file       →  ${DATA_FILE}`);
   if (!fs.existsSync(DATA_FILE)) saveData({});
 });
-
 
