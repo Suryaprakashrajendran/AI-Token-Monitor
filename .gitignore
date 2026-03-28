@@ -1,0 +1,17 @@
+
+# Secrets
+.env
+
+# Auto-generated
+usage.json
+
+# Dependencies
+node_modules/
+
+# OS
+.DS_Store
+
+#file
+package.json
+package-lock.json
+.ini
