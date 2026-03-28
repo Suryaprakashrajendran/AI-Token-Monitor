@@ -158,6 +158,7 @@ Expected output:
 ✅ Token Monitor server  →  http://localhost:3000
 🤖 Chatbot               →  http://localhost:3000/chatbot.html
 📊 Dashboard             →  http://localhost:3000/dashboard.html
+📁 Usage data file       →  eg: C:\ai-token-monitor\files\usage.json
 ```
 
 ### Step 7 — Open in browser
@@ -390,6 +391,3 @@ Ctrl + C
 
 ---
 
-### Preview this file in VS Code
-
-Press `Ctrl + Shift + V` (Windows/Linux) or `Cmd + Shift + V` (Mac) to see it rendered — not as raw text.
