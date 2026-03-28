@@ -89,9 +89,11 @@ mkdir files
 cd files
 ```
 
-### Step 2 — Copy the files
-```
+### Step 2 — Use this files
+
 Git clone :
+
+```
 https://github.com/Suryaprakashrajendran/AI-Token-Monitor.git
 ```
 
