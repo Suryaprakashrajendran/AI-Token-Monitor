@@ -263,10 +263,10 @@ app.get('/api/export', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`✅ Token Monitor server  →  http://localhost:${PORT}`);
-  console.log(`🤖 Chatbot               →  http://localhost:${PORT}/public/html/chatbot.html`);
-  console.log(`📊 Dashboard             →  http://localhost:${PORT}/public/html/dashboard.html`);
-  console.log(`📁 Usage data file       →  ${DATA_FILE}`);
+  console.log(`Token Monitor server  →  http://localhost:${PORT}`);
+  console.log(`Chatbot               →  http://localhost:${PORT}/public/html/chatbot.html`);
+  console.log(`Dashboard             →  http://localhost:${PORT}/public/html/dashboard.html`);
+  console.log(`Usage data file       →  ${DATA_FILE}`);
   if (!fs.existsSync(DATA_FILE)) saveData({});
 });
 
